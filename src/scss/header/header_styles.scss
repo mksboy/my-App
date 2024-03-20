@@ -1,15 +1,14 @@
 #header {
 
-  display: flex;
-  justify-content: center;
   .header__top_menu {
 
     max-width: 1280px;
     .header__top_menu-items {
       ul {
+        padding: 0;
         list-style: none;
         display: flex;
-        gap: 20px;
+        justify-content: space-between;
         li {
           a {
             font-family: myfont, serif;
@@ -20,4 +19,10 @@
       }
     }
   }
+
+  .header__top-block-contact {
+    display: flex;
+    justify-content: space-between;
+  }
+
 }
