@@ -25,6 +25,7 @@ module.exports = {
     alias: {
       '@': path.resolve(__dirname, 'src'),
       '@core': path.resolve(__dirname, 'src/core'),
+      '@fonts': path.resolve(__dirname, src/fonts)
     },
   },
   devtool: isDev ? 'source-map' : false,

@@ -1,0 +1,23 @@
+#header {
+
+  display: flex;
+  justify-content: center;
+  .header__top_menu {
+
+    max-width: 1280px;
+    .header__top_menu-items {
+      ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        li {
+          a {
+            font-family: myfont, serif;
+            color: black;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
