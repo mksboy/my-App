@@ -5,6 +5,7 @@ const CopyPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const ESLintPlugin = require('eslint-webpack-plugin');
 
+
 const isProd = process.env.NODE_ENV === 'production';
 const isDev = !isProd;
 
@@ -17,6 +18,7 @@ module.exports = {
   output: {
     filename: filename('js'),
     path: path.resolve(__dirname, 'dist'),
+    assetModuleFilename: 'images/[hash][ext][query]',
   },
   resolve: {
     extensions: ['.js'],
@@ -69,6 +71,18 @@ module.exports = {
           'css-loader',
           'sass-loader',
         ],
+      },
+      {
+        test: /\.html$/i,
+        loader: 'html-loader',
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/,
+        type: 'asset/resource',
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        type: 'asset/resource',
       },
       {
         test: /\.m?js$/,
