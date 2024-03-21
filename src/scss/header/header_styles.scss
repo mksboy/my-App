@@ -1,28 +1,208 @@
-#header {
+.aside_panel {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 280px;
+  background: var(--bg1)
+}
 
-  .header__top_menu {
-
-    max-width: 1280px;
-    .header__top_menu-items {
-      ul {
-        padding: 0;
-        list-style: none;
-        display: flex;
-        justify-content: space-between;
-        li {
-          a {
-            font-family: myfont, serif;
-            color: black;
-            text-decoration: none;
-          }
-        }
-      }
-    }
+@media (max-width: 950px) {
+  .aside_panel {
+    left:-280px;
+    transition: var(--animation1);
+    z-index: 200
   }
+}
 
-  .header__top-block-contact {
-    display: flex;
-    justify-content: space-between;
-  }
+.aside_panel_logo {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0 20px 27px;
+  color: #fff;
+  gap: 3px;
+  position: relative
+}
 
+.aside_panel_logo svg {
+  width: 29px;
+  height: 26px;
+  position: relative;
+  z-index: 10
+}
+
+.aside_panel_logo strong {
+  font-family: "Russo One",Helvetica,Arial,sans-serif;
+  font-size: 23px;
+  display: flex;
+  align-items: end;
+  position: relative;
+  bottom: -3px;
+  z-index: 10;
+  font-weight: 400
+}
+
+.aside_panel_logo i {
+  margin-left: 3px
+}
+
+.aside_panel_logo span {
+  width: 100%;
+  font-size: 13px;
+  letter-spacing: .9px;
+  color: #888;
+  position: relative;
+  z-index: 10;
+  transition: var(--animation1)
+}
+
+.aside_panel_logo:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 75px solid var(--bg2);
+  border-right: 120px solid transparent;
+  position: absolute;
+  top: 5px;
+  left: 5px
+}
+
+.aside_panel_logo,.aside_panel_logo:hover {
+  text-decoration: none
+}
+
+.aside_panel_logo:hover span {
+  color: #ccc
+}
+
+.aside_panel_nav {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed var(--c1)
+}
+
+.aside_panel_nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+.aside_panel_contacts a,.aside_panel_nav a {
+  display: flex;
+  align-items: center;
+  transition: var(--animation1);
+  color: #ddd;
+  text-decoration: none
+}
+
+.aside_panel_nav a {
+  height: 37px;
+  font-size: 15px;
+  padding: 0 15px;
+  border-radius: var(--radius1);
+  background: 0 0;
+  margin-bottom: 4px
+}
+
+.aside_panel_nav a:hover {
+  background: var(--bg2);
+  color: #fff;
+  text-decoration: none
+}
+
+.aside_panel_contacts,.aside_panel_contacts button {
+  border-radius: var(--radius1);
+  transition: var(--animation1)
+}
+
+.aside_panel_contacts {
+  background: var(--bg2);
+  border: 1px dashed #484848;
+  margin: 30px 30px 0;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 13px
+}
+
+.aside_panel_contacts:hover {
+  border: 1px dashed #777
+}
+
+.aside_panel_contacts button {
+  height: 37px;
+  font-size: 13px;
+  text-align: center;
+  color: #fff;
+  border: 1px dashed var(--c1);
+  background: 0 0;
+  width: 100%;
+  margin-bottom: 10px;
+  cursor: pointer
+}
+
+.aside_panel_contacts button:hover {
+  background: var(--bg1);
+  color: #fff
+}
+
+.aside_panel_contacts a {
+  gap: 9px;
+  font-size: 14px
+}
+
+.aside_panel_contacts a svg {
+  width: 20px;
+  height: 20px;
+  filter: grayscale(100%)
+}
+
+.aside_panel_contacts a span {
+  width: calc(100% - 25px)
+}
+
+.aside_panel_contacts a i,.aside_panel_logo i {
+  font-style: normal;
+  color: var(--c1)
+}
+
+.aside_panel_contacts a:hover {
+  color: var(--c1);
+  text-decoration: none
+}
+
+.aside_panel_contacts a:hover svg {
+  filter: grayscale(0%)
+}
+
+a.nav_actived {
+  color: #fff;
+  background: var(--c1)
+}
+
+.aside_panel_show {
+  left: 0
+}
+
+.mobile_over {
+  transition: var(--animation1);
+  display: none
+}
+
+.mobile_over_show {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 90;
+  background: rgba(255,255,255,.3);
+  backdrop-filter: blur(2px)
+}
+
+#nav_menu,.fixed_mobile_nav {
+  display: none
 }

@@ -1,26 +1,17 @@
 html {
   font-size: $font-size;
   font-family: $font-family;
-  height: 100%;
-  width: 100%;
+
   color: $font-color;
   line-height: 1.4;
 }
 
 body {
   margin: auto;
-  text-align: center;
-  max-width: $page-width;
+  height: 100%;
+  width: 100%;
 }
 
-h1 {
-  margin: 0 0 2rem;
-}
-
-.image {
-  display: inline-block;
-  height: 100px;
-  width: 100px;
-
-  background-size: cover;
-}
+//h1 {
+//  margin: 0 0 2rem;
+//}
