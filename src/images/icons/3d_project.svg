@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X6 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="68mm" height="90mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 6800 9000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:#2B2A29;stroke-width:100}
+    .str0 {stroke:#2B2A29;stroke-width:100;stroke-linecap:round}
+    .fil1 {fill:none}
+    .fil0 {fill:#2B2A29}
+    .fil2 {fill:#2B2A29;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_799418848">
+   <path class="fil0" d="M4913 2345c-439,0 -797,357 -797,797 0,126 29,246 85,359 135,271 408,439 712,439 303,0 577,-168 713,-439 56,-112 85,-233 85,-358 0,-439 -358,-797 -798,-797zm0 1725c-354,0 -671,-196 -829,-511 -65,-131 -98,-271 -98,-417 0,-512 416,-928 928,-928 512,0 929,416 929,928 0,146 -33,286 -98,417 -159,315 -477,511 -830,511z"/>
+   <path class="fil0" d="M6685 6786c-36,0 -66,-29 -66,-65 0,-1406 -311,-1640 -670,-1911l-38 -29c-202,-153 -645,-260 -1077,-260 -217,0 -418,27 -582,79 -7,2 -13,3 -20,3 -29,0 -54,-18 -63,-46 -5,-17 -4,-34 5,-50 8,-16 22,-27 38,-32 178,-56 396,-85 632,-85 466,0 916,113 1146,287l38 29c372,280 722,545 722,2016 0,36 -29,65 -65,65z"/>
+   <path class="fil0" d="M250 3821c-38,0 -69,31 -69,69l0 1835 3504 0 0 -1835c0,-38 -31,-69 -69,-69l-3366 0zm-69 2197c0,38 31,69 69,69l3366 0c38,0 69,-31 69,-69l0 -161 -3504 0 0 161zm1584 637l336 0 0 -437 -336 0 0 437zm-809 131c-36,0 -66,-29 -66,-65 0,-36 30,-66 66,-66l678 0 0 -437 -1384 0c-110,0 -200,-90 -200,-200l0 -2128c0,-110 90,-200 200,-200l3366 0c110,0 200,90 200,200l0 2128c0,110 -90,200 -200,200l-1384 0 0 437 3018 0c36,0 66,29 66,66 0,36 -29,65 -66,65l-4293 0z"/>
+   <path class="fil0" d="M5777 6786c-36,0 -66,-29 -66,-65l0 -930c0,-36 29,-66 65,-66 36,0 66,29 66,66l0 930c0,36 -29,65 -66,65z"/>
+   <line class="fil1 str0" x1="763" y1="5138" x2="1122" y2= "5138" />
+   <path class="fil2" d="M1215 5569l0 -484c0,-12 -4,-22 -11,-30l0 0c-7,-8 -16,-12 -26,-12l-472 0c-10,0 -19,5 -26,12l0 0c-7,8 -11,18 -11,30l0 484 -98 0 0 -484c0,-43 15,-82 40,-110l0 0c25,-28 58,-46 95,-46l472 0c37,0 70,17 95,46l0 0 0 0c24,28 40,67 40,110l0 484 -98 0z"/>
+   <rect class="fil1 str1" x="749" y="4462" width="387" height="519" rx="58" ry="48"/>
+   <path class="fil1 str0" d="M1378 4616l2168 0m-3259 875l170 -136m829 -665l91 -73 0 -666"/>
+   <g>
+    <line class="fil1 str0" x1="2337" y1="5483" x2="2337" y2= "5124" />
+    <ellipse class="fil1 str1" cx="2337" cy="5004" rx="631" ry="86"/>
+   </g>
+  </g>
+ </g>
+</svg>

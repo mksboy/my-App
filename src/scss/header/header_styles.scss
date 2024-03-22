@@ -1,3 +1,77 @@
+@import "top_banner";
+
+.sl_banner {
+  background: $background-color;
+}
+
+.aside_panel_contacts {
+
+}
+
+.header__top-logo {
+  z-index: 100;
+}
+
+button.b24-form-click-btn-font-modern {
+  font-family: Calibri, sans-serif !important;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.aside_panel_contacts-icon {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  .sl_soc_icon {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .b-phone.ct {
+
+  }
+}
+
+.b-phone-ico {
+  background: url(/images/icons/phone-ico.png);
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 20px;
+  display: block;
+  margin: 0 10px 0 0;
+}
+
+.wa.ico{
+  width: 1.5rem;
+  height: 1.5rem;
+  background: url(/images/icons/icon-whup.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.tg.ico{
+  width: 1.5rem;
+  height: 1.5rem;
+  background: url(/images/icons/icon-telegram.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.vk.ico{
+  width: 1.5rem;
+  height: 1.5rem;
+  background: url(/images/icons/vk.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
 .aside_panel {
   position: fixed;
   left: 0;
@@ -32,7 +106,7 @@
 }
 
 .aside_panel_logo strong {
-  font-family: "Russo One",Helvetica,Arial,sans-serif;
+  font-family: Calibri ,sans-serif;
   font-size: 23px;
   display: flex;
   align-items: end;
@@ -124,7 +198,8 @@
   padding: 20px 15px;
   display: flex;
   flex-direction: column;
-  gap: 13px
+  gap: 13px;
+  align-items: center;
 }
 
 .aside_panel_contacts:hover {
@@ -159,9 +234,9 @@
   filter: grayscale(100%)
 }
 
-.aside_panel_contacts a span {
-  width: calc(100% - 25px)
-}
+//.aside_panel_contacts a span {
+//  width: calc(100% - 25px)
+//}
 
 .aside_panel_contacts a i,.aside_panel_logo i {
   font-style: normal;

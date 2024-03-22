@@ -1,0 +1,38 @@
+.grid_container {
+  width: 100%;
+  max-width: 1050px;
+  padding: 0 15px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+}
+
+.main_block_1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main_block_1_txt {
+  width: 66%;
+}
+
+.main_block_1_txt h1 {
+  margin: 0;
+  padding: 40px 0 10px;
+}
+
+h1 {
+  font-size: 32px;
+  background: var(--gradient1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #333;
+  line-height: 40px;
+}
